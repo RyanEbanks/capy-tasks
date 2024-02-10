@@ -5,6 +5,9 @@ Simple project to help me understand the functionalities of next.js and typescri
 
 ## Deployed Application Link
 [Click Here!](https://ryanebanks.github.io/capy-tasks/)
+```md
+NB: Build is currently not up. The deployed application only displays the readme.
+```
 
 ## Description
 This project was just for fun and it utilizes typescript and next.js. There is no deleting capabilities when adding to the todo list.
