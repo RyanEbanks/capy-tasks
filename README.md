@@ -4,7 +4,7 @@ Simple project to help me understand the functionalities of next.js and typescri
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 ## Deployed Application Link
-[Click Here!]()
+[Click Here!](https://ryanebanks.github.io/capy-tasks/)
 
 ## Description
 This project was just for fun and it utilizes typescript and next.js. There is no deleting capabilities when adding to the todo list.
