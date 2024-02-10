@@ -23,16 +23,16 @@ export default function Page(){
         <header>
             <h1 className="text-center text-4xl mb-12">CapyTask</h1>
             </header>
-        <div className="shadow-lg bg-capytan flex-col">
+        <div className="shadow-lg shadow-slate-500 bg-capytan flex-col rounded-2xl">
         <a><img src="capytask.svg" alt="Image of Capybara" className="w-32 h-32 m-auto" /></a>
-            <h1 className="text-center text-2xl">Add More to Your List</h1>
+            <h1 className="text-center text-2xl text-gray-800">Add More to Your List</h1>
         <form action={createTodo} className="text-center mt-20"> 
-            <input type="text" name="title" className="border border-slate-800 w-48 h-10 p-2 focus:border-blue-500 rounded-2xl"/>
+            <input type="text" name="title" className="border border-slate-800 w-48 h-10 p-2 focus:border-blue-500 rounded-2xl text-slate-800"/>
             <div className="mt-20">
                 <Link href="..">
-                <button type="submit" className="bg-white hover:bg-gray-100 text-gray-800 font-semibold py-2 px-4 border border-gray-400 rounded shadow ml-2 mr-2 mb-10">Cancel</button>
+                <button type="submit" className="bg-white text-gray-800 font-semibold py-2 px-4 border border-gray-400 rounded shadow w-48  hover:bg-slate-700 hover:text-slate-100 ml-2 mr-2 mb-10">Cancel</button>
                     </Link>
-                <button type="submit" className="bg-white hover:bg-gray-100 text-gray-800 font-semibold py-2 px-4 border border-gray-400 rounded shadow ml-2 mr-2 mb-10">Submit</button>
+                <button type="submit" className="bg-white text-gray-800 font-semibold py-2 px-4 border border-gray-400 rounded shadow w-48  hover:bg-slate-700 hover:text-slate-100 ml-2 mr-2 mb-10">Submit</button>
             </div>
         </form>
         </div>
